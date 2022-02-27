@@ -6,7 +6,7 @@ export const get_buildings_list = async () => {
     },
   }
 
-  const res = await fetch('/data/buildings.json', init)
+  const res = await fetch('../data/buildings.json', init)
   const data = await res.json()
   return data.buildings
 }

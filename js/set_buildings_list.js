@@ -1,4 +1,4 @@
-import { get_buildings_list } from '/js/get_buildings_list.js'
+import { get_buildings_list } from './get_buildings_list.js'
 
 const buildings = await get_buildings_list()
 
